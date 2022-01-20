@@ -40,7 +40,7 @@
 				</form>
 			</div>
 			<div class="signup-div flex flex-center">
-				<span>계정이 없으신가요?</span>&nbsp;<a>가입하기</a>
+				<span>계정이 없으신가요?</span>&nbsp;<a href="signup.php">가입하기</a>
 			</div>
 			<div class="flex down-div flex-center">
 				<strong>앱 다운로드</strong>

@@ -4,6 +4,7 @@
 
 a {
 	color: #00376b;
+	text-decoration: none;
 }
 
 .login-div, .signup-div, .down-div {

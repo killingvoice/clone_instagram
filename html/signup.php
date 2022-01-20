@@ -25,24 +25,26 @@
 						<div class="flex1 hr"></div>
 					</div>
 				</div>
-				<div class="flex flex-center">
-					<input class="input" type="text" name="email" placeholder="이메일 주소">
-				</div>
-				<div class="flex flex-center">
-					<input class="input" type="text" name="name" placeholder="성명">
-				</div>
-				<div class="flex flex-center">
-					<input class="input" type="text" name="id" placeholder="사용자 이름">
-				</div>
-				<div class="flex flex-center">
-					<input class="input" type="password" name="pw" placeholder="비밀번호">
-				</div>
-				<div class="flex flex-center">
-					<input class="submit" type="submit" value="가입하기">
-				</div>
+				<form method="POST" action="../php/signup.php">
+					<div class="flex flex-center">
+						<input class="input" type="text" name="email" placeholder="이메일 주소">
+					</div>
+					<div class="flex flex-center">
+						<input class="input" type="text" name="name" placeholder="성명">
+					</div>
+					<div class="flex flex-center">
+						<input class="input" type="text" name="id" placeholder="사용자 이름">
+					</div>
+					<div class="flex flex-center">
+						<input class="input" type="password" name="pw" placeholder="비밀번호">
+					</div>
+					<div class="flex flex-center">
+						<input class="submit" type="submit" value="가입하기">
+					</div>
+				</form>
 			</div>
 			<div class="signup-div flex flex-center">
-				<span>계정이 있으신가요?</span>&nbsp;<a>로그인</a>
+				<span>계정이 있으신가요?</span>&nbsp;<a href="login.php">로그인</a>
 			</div>
 			<div class="flex down-div flex-center">
 				<strong>앱 다운로드</strong>
