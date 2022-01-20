@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-	//include "/workspace/php/shop/php/clothes_detail.php";
+	//세션 확인 후 메인 화면으로 이동
 ?>
 
 <html>
@@ -14,7 +14,7 @@
 		<div class="flex1 main-div flex-center flex-col">
 			<div class="flex login-div flex-col">
 				<h1 class="text-center">Instagram_</h1>
-				<form method="POST" action="">
+				<form method="POST" action="../php/login.php">
 					<div class="flex1 flex-col" style="padding-top: 10px;">
 						<div class="flex flex-center">
 							<input class="input" type="text" name="id" placeholder="전화번호, 사용자 이름 또는 이메일">
