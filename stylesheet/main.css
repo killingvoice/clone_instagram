@@ -52,3 +52,8 @@ a, span {
 	background-color: #ffffff;
 	position: fixed;
 }
+
+.icon {
+	background-repeat: no-repeat;
+	background-position: center;
+}
